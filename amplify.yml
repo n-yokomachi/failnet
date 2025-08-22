@@ -1,6 +1,6 @@
 version: 1
 applications:
-  - appRoot: .
+  - appRoot: webapp
     frontend:
       phases:
         preBuild:
@@ -17,7 +17,7 @@ applications:
         paths:
           - node_modules/**/*
           - .next/cache/**/*
-  - appRoot: .
+  - appRoot: webapp
     backend:
       phases:
         build:
